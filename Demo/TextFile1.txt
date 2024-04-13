@@ -1,0 +1,28 @@
+﻿/*if (pictureBox1.Location.X < 150)
+            {
+                pictureBox1.Location = new Point(pictureBox1.Location.X + 1, pictureBox1.Location.Y);
+            }
+            else {
+                if (comboBox1.Text == "学生")
+                {
+                    Form2 form2 = new Form2();
+                    form2.Show();//显示窗体
+                    this.Hide();
+                }
+                else {
+                    if (comboBox1.Text == "老师")
+                    {
+                        Form3 form3 = new Form3();
+                        form3.Show();
+                        this.Hide();
+                    }
+                    else {
+                        if (comboBox1.Text == "管理员") 
+                        {
+                            Form4 form4 = new Form4();
+                            form4.Show();
+                            this.Hide();
+                        }
+                    }
+                }
+                timer1.Stop();*/

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project\\vsproject\\Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC96B831-2327-449C-8532-F3620A839546}|Demo.csproj|d:\\project\\vsproject\\demo\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC96B831-2327-449C-8532-F3620A839546}|Demo.csproj|solutionrelative:ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC96B831-2327-449C-8532-F3620A839546}|Demo.csproj|d:\\project\\vsproject\\demo\\bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC96B831-2327-449C-8532-F3620A839546}|Demo.csproj|solutionrelative:bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC96B831-2327-449C-8532-F3620A839546}|Demo.csproj|d:\\project\\vsproject\\demo\\model\\logininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC96B831-2327-449C-8532-F3620A839546}|Demo.csproj|solutionrelative:model\\logininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC96B831-2327-449C-8532-F3620A839546}|Demo.csproj|d:\\project\\vsproject\\demo\\model\\studentinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC96B831-2327-449C-8532-F3620A839546}|Demo.csproj|solutionrelative:model\\studentinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC96B831-2327-449C-8532-F3620A839546}|Demo.csproj|d:\\project\\vsproject\\demo\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC96B831-2327-449C-8532-F3620A839546}|Demo.csproj|solutionrelative:dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC96B831-2327-449C-8532-F3620A839546}|Demo.csproj|d:\\project\\vsproject\\demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC96B831-2327-449C-8532-F3620A839546}|Demo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentInfo.cs",
+              "DocumentMoniker": "D:\\Project\\vsproject\\Demo\\Model\\StudentInfo.cs",
+              "RelativeDocumentMoniker": "Model\\StudentInfo.cs",
+              "ToolTip": "D:\\Project\\vsproject\\Demo\\Model\\StudentInfo.cs",
+              "RelativeToolTip": "Model\\StudentInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T08:22:53.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BLL.cs",
+              "DocumentMoniker": "D:\\Project\\vsproject\\Demo\\BLL.cs",
+              "RelativeDocumentMoniker": "BLL.cs",
+              "ToolTip": "D:\\Project\\vsproject\\Demo\\BLL.cs",
+              "RelativeToolTip": "BLL.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAADwv10AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T08:21:32.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DAL.cs",
+              "DocumentMoniker": "D:\\Project\\vsproject\\Demo\\DAL.cs",
+              "RelativeDocumentMoniker": "DAL.cs",
+              "ToolTip": "D:\\Project\\vsproject\\Demo\\DAL.cs",
+              "RelativeToolTip": "DAL.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAQwEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T06:41:46.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Project\\vsproject\\Demo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Project\\vsproject\\Demo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T06:41:38.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginInfo.cs",
+              "DocumentMoniker": "D:\\Project\\vsproject\\Demo\\Model\\LoginInfo.cs",
+              "RelativeDocumentMoniker": "Model\\LoginInfo.cs",
+              "ToolTip": "D:\\Project\\vsproject\\Demo\\Model\\LoginInfo.cs",
+              "RelativeToolTip": "Model\\LoginInfo.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T08:22:38.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Project\\vsproject\\Demo\\UI\\Form1.cs",
+              "RelativeDocumentMoniker": "UI\\Form1.cs",
+              "ToolTip": "D:\\Project\\vsproject\\Demo\\UI\\Form1.cs",
+              "RelativeToolTip": "UI\\Form1.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAmwGIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T03:42:46.364Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
