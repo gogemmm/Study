@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitBank\\WebDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{836A7429-FDA7-4CFA-8E1A-5A70D98F94DD}|..\\Models\\Models.csproj|d:\\gitbank\\models\\logininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginInfo.cs",
+              "DocumentMoniker": "D:\\GitBank\\Models\\LoginInfo.cs",
+              "RelativeDocumentMoniker": "..\\Models\\LoginInfo.cs",
+              "ToolTip": "D:\\GitBank\\Models\\LoginInfo.cs",
+              "RelativeToolTip": "..\\Models\\LoginInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T09:14:02.701Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
