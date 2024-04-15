@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\UI"
+    "\\bin\\Debug",
+    "\\Model"
   ],
-  "SelectedNode": "\\Demo.sln",
+  "SelectedNode": "\\BLL.cs",
   "PreviewInSolutionExplorer": false
 }
