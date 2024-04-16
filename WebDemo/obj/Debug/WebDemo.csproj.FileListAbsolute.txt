@@ -93,3 +93,7 @@ D:\GitBank\WebDemo\obj\Debug\WebDemo.csproj.CoreCompileInputs.cache
 D:\GitBank\WebDemo\obj\Debug\WebDemo.csproj.Up2Date
 D:\GitBank\WebDemo\obj\Debug\WebDemo.dll
 D:\GitBank\WebDemo\obj\Debug\WebDemo.pdb
+D:\GitBank\WebDemo\bin\BLL.dll
+D:\GitBank\WebDemo\bin\Model.dll
+D:\GitBank\WebDemo\bin\BLL.pdb
+D:\GitBank\WebDemo\bin\Model.pdb
