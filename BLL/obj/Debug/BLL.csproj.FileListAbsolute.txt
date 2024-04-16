@@ -1,0 +1,9 @@
+D:\GitBank\BLL\bin\Debug\BLL.dll
+D:\GitBank\BLL\bin\Debug\BLL.pdb
+D:\GitBank\BLL\bin\Debug\Model.dll
+D:\GitBank\BLL\bin\Debug\Model.pdb
+D:\GitBank\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\GitBank\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\GitBank\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\GitBank\BLL\obj\Debug\BLL.dll
+D:\GitBank\BLL\obj\Debug\BLL.pdb
