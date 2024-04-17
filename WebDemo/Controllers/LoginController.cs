@@ -23,7 +23,7 @@ namespace WebDemo.Controllers
             loginInfo.UserName = Request["UserName"].ToString();
             
             loginInfo.PassWord = Request["PassWord"].ToString();
-            loginInfo.Role = Request["Role"].ToString();
+            loginInfo.Role = Request["Role"];
             if (bll.login(loginInfo)) 
             {
                 //跳转页面代码
