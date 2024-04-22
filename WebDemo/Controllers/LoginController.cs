@@ -12,6 +12,7 @@ namespace WebDemo.Controllers
     public class LoginController : Controller
     {
         Bll bll = new Bll();
+
         public ActionResult Index()
         {
             return View();
