@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .top {
+            height: 10%; 
+            background-color: #f0f0f0; 
+        }
+
+        .bottom {
+            height: 90%; 
+            background-color: #e0e0e0; 
+        }
+        .lable{
+            text-align: center;
+            margin: 0; /* 去除默认的外边距 */
+            padding: 30px; /* 去除默认的内边距 */
+             font-size: 24px
+        }
+
+        .bt1{
+            width: 100px;
+            height: 30px;
+            background-color: #409eff;
+            border: none;
+            border-radius: 5px;
+        }
+        .bt2{
+            width: 100px;
+            height: 30px;
+            background-color: #f56c6c;
+            border: none;
+            border-radius: 5px;
+        }
+        .bt3{
+            width: 100px;
+            height: 30px;
+            background-color: #e6a23c;
+            border: none;
+            border-radius: 5px;
+        }
+        .font_style{
+            color:#f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div class="lable">
+            <span>学生管理</span>
+        </div>
+    </div>
+    <div class="bottom" style="padding: 0px 20px 10px">
+        <div>
+            <button class="bt1" type="button">
+                <i class="fa-solid fa-plus" style="color:#f0f0f0"></i>
+                <span class="font_style">添加</span>
+            </button>
+            <button class="bt2" type="button">
+                <i class="fa-solid fa-minus" style="color:#f0f0f0"></i>
+                <span class="font_style">删除所选行</span>
+            </button>
+            <button class="bt3" type="button">
+                <i class="fa-solid fa-magnifying-glass" style="color:#f0f0f0"></i>
+                <span class="font_style">搜索</span>
+            </button>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>学号</th>
+                        <th>姓名</th>
+                        <th>班级</th>
+                        <th>出生日期</th>
+                        <th>籍贯</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
