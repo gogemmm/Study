@@ -75,18 +75,27 @@
                 <span class="font_style">搜索</span>
             </button>
 
-            <table>
+            <table id="studentTable">
                 <thead>
                     <tr>
-                        <th>学号</th>
                         <th>姓名</th>
+                        <th>ID</th>
                         <th>班级</th>
-                        <th>出生日期</th>
+                        <th>生日</th>
                         <th>籍贯</th>
                     </tr>
                 </thead>
-                <tbody>
-                    
+                <tbody id="studentTableBody">
+                    @foreach (System.Data.DataRow row in Model.Tables[0].Rows)
+                    {
+                        <tr>
+                            <td>@row["Name"]</td>
+                            <td>@row["Id"]</td>
+                            <td>@row["Class"]</td>
+                            <td>@row["Birthday"]</td>
+                            <td>@row["JG"]</td>
+                        </tr>
+                    }
                 </tbody>
             </table>
         </div>
