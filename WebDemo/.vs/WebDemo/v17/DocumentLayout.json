@@ -9,23 +9,23 @@
       "AbsoluteMoniker": "D:0:0:{0546A31A-13EE-4156-9389-36953FF2AA3F}|..\\BLL\\BLL.csproj|d:\\gitbank\\bll\\bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|d:\\gitbank\\webdemo\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|D:\\GitBank\\WebDemo\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|d:\\gitbank\\webdemo\\views\\homepage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|D:\\GitBank\\WebDemo\\views\\homepage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|solutionrelative:views\\homepage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|d:\\gitbank\\webdemo\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|D:\\GitBank\\WebDemo\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|d:\\gitbank\\webdemo\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|D:\\GitBank\\WebDemo\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|d:\\gitbank\\webdemo\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|D:\\GitBank\\WebDemo\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -48,8 +48,7 @@
               "RelativeToolTip": "Controllers\\LoginController.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAiwBAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T09:16:12.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T09:16:12.548Z"
             },
             {
               "$type": "Document",
@@ -59,7 +58,7 @@
               "RelativeDocumentMoniker": "..\\Model\\DAL.cs",
               "ToolTip": "D:\\GitBank\\Model\\DAL.cs",
               "RelativeToolTip": "..\\Model\\DAL.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAA7wBgAAAA2AAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T08:58:49.036Z",
               "EditorCaption": ""
@@ -74,8 +73,7 @@
               "RelativeToolTip": "..\\BLL\\Bll.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAA4wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T08:58:46.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T08:58:46.661Z"
             },
             {
               "$type": "Document",
@@ -87,8 +85,7 @@
               "RelativeToolTip": "Views\\HomePage\\Index.cshtml",
               "ViewState": "AQIAAFQAAAAAAAAAAAAAAGQAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T08:52:23.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T08:52:23.519Z"
             },
             {
               "$type": "Document",
@@ -100,8 +97,7 @@
               "RelativeToolTip": "Views\\Login\\Index.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T06:52:55.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T06:52:55.363Z"
             },
             {
               "$type": "Document",
@@ -113,8 +109,7 @@
               "RelativeToolTip": "Views\\Student\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T06:51:26.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T06:51:26.169Z"
             },
             {
               "$type": "Document",
@@ -126,8 +121,7 @@
               "RelativeToolTip": "Controllers\\StudentController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T06:50:59.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T06:50:59.317Z"
             }
           ]
         }
