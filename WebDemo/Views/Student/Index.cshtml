@@ -10,6 +10,10 @@
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
     <style>
+        .selected {
+            background-color: greenyellow; /* 添加选中样式 */
+        }
+
         body, html {
             height: 100%;
             margin: 0;
@@ -56,6 +60,21 @@
             border: none;
             border-radius: 5px;
         }
+        .bt4 {
+            width: 100px;
+            height: 30px;
+            background-color: #e6a23c;
+            border: none;
+            border-radius: 5px;
+        }
+        .bt5 {
+            width: 100px;
+            height: 30px;
+            background-color: green;
+            border: none;
+            border-radius: 5px;
+
+        }
 
         .font_style {
             color: #f0f0f0;
@@ -70,17 +89,25 @@
     </div>
     <div class="bottom" style="padding: 0px 20px 10px">
         <div>
-            <button class="bt1" type="button">
+            <button class="bt1" type="button" id="add">
                 <i class="fa-solid fa-plus" style="color:#f0f0f0"></i>
                 <span class="font_style">添加</span>
             </button>
-            <button class="bt2" type="button">
+            <button class="bt2" type="button" id="deleteButton">
                 <i class="fa-solid fa-minus" style="color:#f0f0f0"></i>
                 <span class="font_style">删除所选行</span>
             </button>
             <button class="bt3" type="button">
                 <i class="fa-solid fa-magnifying-glass" style="color:#f0f0f0"></i>
                 <span class="font_style">搜索</span>
+            </button>
+            <button class="bt4" type="button" id="updataButton">
+                <i class="fa-solid fa-magnifying-glass" style="color:#f0f0f0"></i>
+                <span class="font_style">修改</span>
+            </button>
+            <button class="bt5" type="button" id="saveButton" style="display: none;">
+                <i class="fa-solid fa-magnifying-glass" style="color:#f0f0f0"></i>
+                <span class="font_style" >保存</span>
             </button>
 
             <table id="studentTable">
@@ -109,4 +136,102 @@
         </div>
     </div>
 </body>
+<script src="~/Content/jquery-3.7.1.js"></script>
+<script>
+    $("#add").click(function () {
+        window.location.href = "/addStudent";
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $("#studentTable tbody tr").click(function () {
+            $(this).toggleClass("selected");
+        });
+
+        $("#updataButton").click(function () {
+            $("#studentTable tbody tr").each(function () {
+                $(this).find('td').each(function () {
+                    var text = $(this).text();
+                    $(this).html('<input type="text" value="' + text + '">');
+                    $("#saveButton").show();
+                });
+            });
+        });
+
+        $("#saveButton").click(function () {
+            $("#studentTable tbody tr").each(function () {
+                $(this).find('td').each(function () {
+                    var inputVal = $(this).find('input').val();
+                    $(this).html(inputVal);
+                });
+            });
+            // 移除焦点，退出文本域状态
+            $('input').blur();
+            var tr = "";
+            $("#studentTable tbody tr").each(function () {
+                tr += $(this).text() + "\n"; 
+            });
+            //准备发射
+
+            $.ajax({
+                type: "post",
+                dataType: "text",
+                url: "/Student/updatastu",
+                data: {
+                    res: tr
+                    //res2: del_lists
+                },
+                success: function (data) {
+                    return data;
+                }
+            })
+
+        });
+
+
+
+        $("#saveButton").mouseleave(function () {
+            $(this).hide();
+        });
+
+
+        $("#deleteButton").click(function () {
+            var del_lists = [];
+            $(".selected").each(function () {
+                var del_li = $(this).text();
+                del_lists.push(del_li);
+            });
+            $(".selected").remove();
+            console.log(del_lists);
+
+            $.ajax({
+                type: "post",
+                dataType: "text",
+                url: "/Student/del",
+                data: {
+                    res: del_lists
+                    //res2: del_lists
+                },
+                success: function (data) {
+                    return data;
+                }
+            });
+
+        });
+    });   
+
+</script>
+<script>
+    // 页面加载完成时执行的函数
+    window.onload = function() {
+        // 检查是否有错误消息存在
+        var errorMessage = "@TempData["ErrorMessage"]";
+        if (errorMessage) {
+            // 弹出提示框显示错误消息
+            alert(errorMessage);
+        }
+    };
+</script>
+
 </html>

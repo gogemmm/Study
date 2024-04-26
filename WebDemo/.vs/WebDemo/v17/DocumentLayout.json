@@ -3,12 +3,26 @@
   "WorkspaceRootPath": "D:\\GitBank\\WebDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|d:\\gitbank\\webdemo\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|D:\\GitBank\\WebDemo\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|d:\\gitbank\\webdemo\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|d:\\gitbank\\webdemo\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0546A31A-13EE-4156-9389-36953FF2AA3F}|..\\BLL\\BLL.csproj|d:\\gitbank\\bll\\bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|d:\\gitbank\\webdemo\\views\\addstudent\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|solutionrelative:views\\addstudent\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|D:\\GitBank\\WebDemo\\controllers\\addstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CE5D192-9493-4425-82A7-89BE54B45569}|WebDemo.csproj|solutionrelative:controllers\\addstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA2F1E64-6331-4993-8831-DF119D01A37A}|..\\Model\\Model.csproj|d:\\gitbank\\model\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +32,84 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "DAL.cs",
+              "DocumentMoniker": "D:\\GitBank\\Model\\DAL.cs",
+              "RelativeDocumentMoniker": "..\\Model\\DAL.cs",
+              "ToolTip": "D:\\GitBank\\Model\\DAL.cs",
+              "RelativeToolTip": "..\\Model\\DAL.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAIA4wDAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T02:55:12.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\GitBank\\WebDemo\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
-              "ToolTip": "D:\\GitBank\\WebDemo\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "Views\\Login\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentMoniker": "D:\\GitBank\\WebDemo\\Views\\addStudent\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\addStudent\\Index.cshtml",
+              "ToolTip": "D:\\GitBank\\WebDemo\\Views\\addStudent\\Index.cshtml",
+              "RelativeToolTip": "Views\\addStudent\\Index.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA0wFAAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T09:02:09.712Z",
+              "WhenOpened": "2024-04-26T01:11:22.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\GitBank\\WebDemo\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "D:\\GitBank\\WebDemo\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA6wC8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T07:58:14.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\GitBank\\WebDemo\\Views\\Student\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
               "ToolTip": "D:\\GitBank\\WebDemo\\Views\\Student\\Index.cshtml",
               "RelativeToolTip": "Views\\Student\\Index.cshtml",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAEcAAAANAAAA",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAG8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T08:41:18.842Z",
+              "WhenOpened": "2024-04-25T07:05:50.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bll.cs",
+              "DocumentMoniker": "D:\\GitBank\\BLL\\Bll.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\Bll.cs",
+              "ToolTip": "D:\\GitBank\\BLL\\Bll.cs",
+              "RelativeToolTip": "..\\BLL\\Bll.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAIA2wBIAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T03:35:18.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "addStudentController.cs",
+              "DocumentMoniker": "D:\\GitBank\\WebDemo\\Controllers\\addStudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\addStudentController.cs",
+              "ToolTip": "D:\\GitBank\\WebDemo\\Controllers\\addStudentController.cs",
+              "RelativeToolTip": "Controllers\\addStudentController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAowBoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T03:35:14.639Z",
               "EditorCaption": ""
             }
           ]

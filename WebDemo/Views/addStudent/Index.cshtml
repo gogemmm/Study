@@ -1,0 +1,87 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<style>
+    * {
+        background-color:white;
+    }
+    a {
+        font-size: 20px; 
+        line-height: 1.5; 
+        margin-bottom: 20px; 
+        text-decoration: none; 
+        font-weight: bold; 
+        margin-right: 10px; 
+    }
+
+    input {
+        width: 200px; 
+        height: 30px; 
+        font-size: 16px; 
+        padding: 5px; 
+        margin-bottom: 10px; 
+        border: 1px solid #ccc;
+        border-radius: 5px; 
+    }
+    button {
+        margin: 30px;
+        width: 80px;
+        height: 30px;
+    }
+</style>
+<body>
+    <div>
+        <ul>
+            <form name="addstu" method="post">
+                <h1>
+                    <a>姓名</a>
+                    <input type="text" name="stuName" /></br>
+                    <a>学号</a>
+                    <input type="text" name="id" /></br>
+                    <a>班级</a>
+                    <input type="text" name="stuclass" /></br>
+                    <a>生日</a>
+                    <input type="text" name="birthday" /></br>
+                    <a>籍贯</a>
+                    <input type="text" name="JG" />
+                </h1>
+                <h2>
+                    <button type="button" value="cancel" id="cancelButton">取消</button>
+                    <button type="submit" value="save">保存</button>
+                </h2>
+            </form>
+        </ul>
+    </div>
+</body>
+<script src="~/Content/jquery-3.7.1.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#cancelButton").click(function () {
+            window.location.href = "/HomePage";
+            //console.log("11111")
+        });
+    });
+</script>
+
+<script>
+    // 页面加载完成时执行的函数
+    window.onload = function() {
+        // 检查是否有错误消息存在
+        var errorMessage = "@TempData["ErrorMessage"]";
+        if (errorMessage) {
+            // 弹出提示框显示错误消息
+            alert(errorMessage);
+        }
+    };
+</script>
+</html>

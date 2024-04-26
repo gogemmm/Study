@@ -24,7 +24,7 @@ body {
     height: 100vh;
     padding: 20px;
     box-sizing: border-box;
-    background-image: url('Content/img/liuying.png');
+    background-image: url('/Content/img/liuying.png');
     background-size: cover;
     background-position: center;
 }
