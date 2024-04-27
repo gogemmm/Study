@@ -79,6 +79,10 @@
         .font_style {
             color: #f0f0f0;
         }
+        input {
+            width: 200px;
+            height: 28px;
+        }
     </style>
 </head>
 <body>
@@ -97,7 +101,7 @@
                 <i class="fa-solid fa-minus" style="color:#f0f0f0"></i>
                 <span class="font_style">删除所选行</span>
             </button>
-            <button class="bt3" type="button">
+            <button class="bt3" type="button" id="searchButton">
                 <i class="fa-solid fa-magnifying-glass" style="color:#f0f0f0"></i>
                 <span class="font_style">搜索</span>
             </button>
@@ -143,11 +147,74 @@
     });
 </script>
 
+
+
+
 <script>
-    $(document).ready(function () {
-        $("#studentTable tbody tr").click(function () {
-            $(this).toggleClass("selected");
+    var flag = false;
+    $("#searchButton").click(function () {
+        if (flag) {
+            return;
+        }
+
+        var textinput = $("<input id='search' placeholder='请输入学生姓名（一个字也可以）'>");
+        var searchButton = $("<button class='bt1' type='button' id='saveButton2'>查找</button>");
+        textinput.insertBefore($("#studentTable"));
+        searchButton.insertBefore($("#studentTable"));
+
+        var backbutton = $("<button class='bt2' type='button' id='back'>返回</button>");
+        backbutton.insertAfter(searchButton);
+
+        flag = true;
+
+        $("#saveButton2").click(function () {
+            var inputValue = $("#search").val();
+
+            $.ajax({
+                type: "post",
+                dataType: "json",
+                url: "/Student/search",
+                data: {
+                    res: inputValue
+                },
+                success: function (data) {
+                    $("#studentTable tbody").empty();
+                    $.each(data.Table, function (index, student) {
+                        var row = '<tr>' +
+                            '<td>' + student.Name + '</td>' +
+                            '<td>' + student.Id + '</td>' +
+                            '<td>' + student.Class + '</td>' +
+                            '<td>' + student.Birthday + '</td>' +
+                            '<td>' + student.JG + '</td>' +
+                            '</tr>';
+                        $("#studentTable tbody").append(row);
+                    });
+                },
+                error: function (err) {
+                    console.error("Error:", err);
+                }
+            });
+
         });
+
+
+
+        $("#back").click(function () {
+            self.location = "/Student";
+        });
+    });
+
+
+</script>
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $("#studentTable tbody tr").click(function () {
+                $(this).toggleClass("selected");
+            });
 
         $("#updataButton").click(function () {
             $("#studentTable tbody tr").each(function () {
@@ -166,23 +233,23 @@
                     $(this).html(inputVal);
                 });
             });
-            // 移除焦点，退出文本域状态
-            $('input').blur();
-            var tr = "";
-            $("#studentTable tbody tr").each(function () {
-                tr += $(this).text() + "\n"; 
+        // 移除焦点，退出文本域状态
+        $('input').blur();
+        var tr = "";
+        $("#studentTable tbody tr").each(function () {
+            tr += $(this).text() + "\n";
             });
-            //准备发射
+        //准备发射
 
-            $.ajax({
-                type: "post",
-                dataType: "text",
-                url: "/Student/updatastu",
-                data: {
-                    res: tr
+        $.ajax({
+            type: "post",
+        dataType: "text",
+        url: "/Student/updatastu",
+        data: {
+            res: tr
                     //res2: del_lists
                 },
-                success: function (data) {
+        success: function (data) {
                     return data;
                 }
             })
@@ -198,28 +265,28 @@
 
         $("#deleteButton").click(function () {
             var del_lists = [];
-            $(".selected").each(function () {
+        $(".selected").each(function () {
                 var del_li = $(this).text();
-                del_lists.push(del_li);
+        del_lists.push(del_li);
             });
-            $(".selected").remove();
-            console.log(del_lists);
+        $(".selected").remove();
+        console.log(del_lists);
 
-            $.ajax({
-                type: "post",
-                dataType: "text",
-                url: "/Student/del",
-                data: {
-                    res: del_lists
+        $.ajax({
+            type: "post",
+        dataType: "text",
+        url: "/Student/del",
+        data: {
+            res: del_lists
                     //res2: del_lists
                 },
-                success: function (data) {
+        success: function (data) {
                     return data;
                 }
             });
 
         });
-    });   
+    });
 
 </script>
 <script>

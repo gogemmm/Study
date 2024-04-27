@@ -6,6 +6,7 @@ using System.Web;
 using System.Web.Mvc;
 using BLL;
 using Model;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
 
@@ -15,6 +16,8 @@ namespace WebDemo.Controllers
     {
         DAL adl = new DAL();
         Bll Bll = new Bll();
+
+
         public ActionResult Index()
         {
             DataSet ds = adl.dataSet("select Name,Id,Class,Birthday,JG from Student");
@@ -22,6 +25,17 @@ namespace WebDemo.Controllers
 
             return View(ds);
         }
+
+
+        [HttpPost]
+        public ActionResult search(string res) 
+        {
+            DataSet result = Bll.searchstu(res);
+            string jsonResult = JsonConvert.SerializeObject(result, Formatting.Indented);
+            return Content(jsonResult);
+        }
+
+
         [HttpPost]
         public ActionResult del(string res)
         {
